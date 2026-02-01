@@ -1,1 +1,144 @@
-/* Add styles here */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: gabarito;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav_bar__name {
+    color: #A435F0;
+}
+
+.nav_bar__serch {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav_bar__serch input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.nav_bar__serch input:focus {
+    outline: none;
+}
+
+.nav_bar__icons {
+    display: flex;
+    gap: 10px;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+
+.categories p {
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.recommended_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.corse_card {
+    width: 300px;
+
+}
+
+.corse_card img {
+    height: 50%;
+    width: 100%;
+
+}
+
+.topic {
+    padding: 10px;
+}
+
+.topic_container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.topic_container p {
+    border: solid gray 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.topic_container p:hover {
+    background-color: grey;
+    color: white;
+}
+
+.popular_Section {
+    padding: 10px;
+}
+
+.popular_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer_one {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer_two {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_one p{
+    margin: 20px;
+}

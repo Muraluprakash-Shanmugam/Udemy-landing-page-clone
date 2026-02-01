@@ -1,14 +1,244 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udemy</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--Gfont-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+
+  <!--navigation bar heading-->
+  <div class="nav_bar">
+    <div class="nav_bar__name">
+      <h1>Udemy<h1>
+    </div>
+    <!--navigation bar search-->
+    <div class="nav_bar__serch">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search for anything">
+    </div>
+    <!--navigation bar icons-->
+    <div class="nav_bar__icons">
+      Courses
+      My learning
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-bell"></i>
+      <i class="fa-solid fa-user"></i>
+    </div>
+  </div>
+
+  <!--CATEGORIES-->
+  <div class="categories">
+    <p>Developement</p>
+    <p>Business</p>
+    <p>IT & Software</p>
+    <p>Personal Developement</p>
+    <p>Designe</p>
+    <p>Marketing</p>
+
+  </div>
+
+  <!--BANNER-->
+  <div class="banner">
+    <img src="https://img-c.udemycdn.com/notices/home_carousel_slide/image/5aa4255c-c5bf-44ca-923d-b9ff966db7d7.jpg"
+      alt="Banner">
+
+
+  </div>
+
+  <!--recommended-->
+  <div class="recommended">
+    <h1 class="recommended_headder">Recommended</h1>
+    <p>Pick the best courses for you</p>
+
+    <div class="recommended_container">
+      <div class="corse_card">
+        <img
+          src="https://media.istockphoto.com/id/2192134048/photo/python-programming-language-concept-with-computer-code-and-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=AX1ukBoJi_qPGuun3YTOLSCheXgTlJQpihpblwhWdgw="
+          alt="python for data analysis and data visualivization">
+        <h3>Python for data analysis and data visualivization</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</del></p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amF2YXNjcmlwdHxlbnwwfDB8MHx8fDA%3D"
+          alt="React JS zero to hero">
+        <h3>React JS zero to hero</h3>
+        <p>Author</p>
+        <p>5 ⭐⭐⭐⭐⭐</p>
+        <p>999 <del>1499</del></p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://images.unsplash.com/photo-1519163219899-21d2bb723b3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amF2YXxlbnwwfDB8MHx8fDA%3D"
+          alt="How to read a book?">
+        <h3>How to read a book?</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>1999</del></p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y291cnNlc3xlbnwwfDB8MHx8fDA%3D"
+          alt="Things you should know about public speaking">
+        <h3>Things you should know about public speaking</h3>
+        <p>Author</p>
+        <p>3.8 ⭐⭐⭐</p>
+        <p>999 <del>1499</del></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--topic-->
+
+  <div class="topic">
+    <h1 class="topic_title">Recommended topics for you</h1>
+    <div class="topic_container">
+      <p>Web Developement</p>
+      <p>Cyber security</p>
+      <p>Java SE7</p>
+      <p>HTML5</p>
+      <p>AWS</p>
+      <p>Java script</p>
+      <p>Bootstrap</p>
+      <p>Azure</p>
+      <P>CSS</P>
+    </div>
+  </div>
+
+  <!--popular-->
+  <div class="popular_Section">
+    <h1 class="popular_title">Our popular cources</h1>
+    <p>Pick the best fit for you</p>
+
+    <div class="popular_container">
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/Gjl6WkrsyQZ4eTJOX7QbuvBICHHUnX9urwtMDSbfERw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kdG12/YW1haHM0MHV4LmNs/b3VkZnJvbnQubmV0/L3B1YmxpYy9jb3Vy/c2UvY291cnNlLTMx/NjItUmVjdGFuZ2xl/JTIwNDU2MiUyMCgx/KSUyMCgxKS5wbmc"
+          alt="welcome to C++">
+        <h3>welcome to C++</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/Y7nPXPThOHum3iDGYHvAuMGacSFXaqwor0P5dCtoAWw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93c3J2/Lm5sLz91cmw9aHR0/cHM6Ly9jcmVhdG9y/LWFzc2V0cy5jb2Rl/ZGFtbi5jb20vb2Zm/aWNpYWwtNjE4OTdi/ZmU2MGYxMTQwMDA4/ZmViMDBkL2NvdXJz/ZS1pbWFnZS8yMDIx/LTEyLTE1Lzk4ZjNm/NmUwM2ZhZDBjNTcw/YmI5OGI1NWJkZjNl/NWI5N2FkMWM4MTUm/dz0xMjgwJnE9ODIm/b3V0cHV0PXdlYnA"
+          alt="Tailwind CSS master class">
+        <h3>Tailwind CSS master class</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/jZAWywAEQCvghh9_IW1Y_8PGNS2CDukKHIJ41H7Y0dY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jYW1w/dXMudzNzY2hvb2xz/LmNvbS9jZG4vc2hv/cC9maWxlcy8xXzU4/ODY5MmQ0LThmMDMt/NDA0ZC05YTJmLTM5/MmY1NWViMDRhN183/MDB4NzAwLnBuZz92/PTE3MzM3MzMxOTM"
+          alt="JQuery zero to hero">
+        <h3>JQuery zero to hero</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/hPZdiA4jQRrT5TcvZ5m3af4aOwM8vDcCd0F5mxFn0E0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jb3Vy/c2VzLmlpZC5vcmcu/aW4vcHVibGljLy91/cGxvYWRzL21lZGlh/X21hbmFnZXIvNzEy/LnBuZw"
+          alt="Public speaking">
+        <h3>Public speaking</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/EQajSTkNiUKbbbyDQdxIVQrPfPPQVsN2qxKaN4AnERg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucHJpc21pYy5p/by9lZGFwcC13ZWJz/aXRlL1prRmlRa0ZM/S0J0cld6T1lfU29m/dHNraWxsc3RyYWlu/aW5nY291cnNlcy5q/cGc_YXV0bz1mb3Jt/YXQsY29tcHJlc3Mm/cmVjdD02LDAsMTE4/OSw2MjEmdz0xMjAw/Jmg9NjI3"
+          alt="Soft skill developement">
+        <h3>Soft skill developement</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/9qV-hJ46QgnURIdewmyPL_KQbi6Z_G6eBbakwsSiVZ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzQyLzI5LzU3/LzM2MF9GXzU0MjI5/NTcwMV9mWlZkc0F1/VjVPQmpRMkJVRGhq/T1RCUjMySlRoTFJh/Ni5qcGc"
+          alt="welcome to aws">
+        <h3>Welcome to AWS</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/pHmMcdoAXHSAS2TvnwI1gvtvvche67bFY9LmzupNtNE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly96b29t/Z3JvdXAuY29tL3B1/YmxpYy9zdG9yYWdl/L3RodW1ibmFpbHMv/Y291cnNlcy9NaWNy/b3NvZnQtQXp1cmUx/LndlYnA"
+          alt="Microsoft Azure Fundamentals">
+        <h3>Microsoft Azure Fundamentals</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+      <div class="corse_card">
+        <img
+          src="https://imgs.search.brave.com/X30xaT7PH8EDgxL_KCxe1D2RartE37YnM9v67eNIFPM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvOTQ2/NDE5Mi5wbmc"
+          alt="Full stack development bootcamp">
+        <h3>Full stack development bootcamp</h3>
+        <p>Author</p>
+        <p>4.9 ⭐⭐⭐⭐</p>
+        <p>499 <del>999</p>
+      </div>
+
+    </div>
+  </div>
+  <!--footer-->
+<div class="footer">
+  <div class="footer_one">
+    <div class="footer_one_s1">
+      <p>Udemy Business</p>
+      <p>Teach on Udemy</p>
+      <p>Get the app</p>
+      <p>About us</p>
+      <p>Contact</p>
+    </div>
+    <div class="footer_one_s2">
+      <p>Careers</p>
+      <p>Blog</p>
+      <p>Helo and support</p>
+      <p>Affiliate</p>
+      <p>Inversors</p>
+    </div>
+    </div>
+
+    <div class="footer_two">
+      <h1>Udemy</h1>
+      <p>&copy;2026 Udemy, Inc.</p>
+
+    </div>
+  </div>
+</div>
 </body>
+
 </html>
