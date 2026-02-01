@@ -14,7 +14,7 @@ This project focuses on layout structure, responsive design, and clean UI stylin
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3 (Flexbox)
-
+- Firebase Studio (IDE)
 ## 🎯 Purpose
 This project was created to strengthen core front-end skills and demonstrate the ability to build real-world UI layouts using only vanilla HTML and CSS.
 
