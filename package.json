@@ -1,0 +1,18 @@
+{
+  "name": "workingonit",
+  "version": "1.0.0",
+  "description": "Udemy landing page clone built from scratch using HTML5 and CSS. No frameworks. Focused on structure, responsiveness, and visual consistency.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i src/input.css -o style.css --watch",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.18"
+  }
+}
